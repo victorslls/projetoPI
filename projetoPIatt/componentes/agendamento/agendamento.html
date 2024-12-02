@@ -4,11 +4,7 @@
     <!-- PAGE INFO -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SalãoSenacPE</title>
-
-
-    <!-- Icones -->
-    <link rel="icon" href="assets/fotos/logoSenac.png" type="image/x-icon">
+    <title>OriginSix</title>
 
     <!-- Icones -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
@@ -20,7 +16,7 @@
     />
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="style.css" />
+  <<link rel="stylesheet" href="style.css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -28,9 +24,12 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-ENjdO4Dr2bkBIFxQpeoEKNZ84Wpg2Wx5L2lq5kZlmgYkG6qaFkgP3tfj9CHfoXbo" 
     crossorigin="anonymous"  />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
   </head>
   <body>
 
@@ -72,7 +71,7 @@
       </div>
 
 
-      <nav class="container">
+      <nav class="container" style="height: 15vh;">
         <a class="logo" href="#"><img src="assets/fotos/logoSenac.png" alt="" srcset=""></a>
         <!-- menu -->
         <div class="menu">
@@ -92,249 +91,17 @@
     </header>
     
 
-    <main>
+    <main style=" width: 100%; height: 100vh; overflow-x: hidden;">
       <!-- HOME -->
-      <section class="section" id="home" style="background: url(assets/fotos/banner.png)  no-repeat center center;">
-        <div class="container grid" style="display: flex; align-items: center;
-        ">
-        <!--  <div class="image">
-            <img
-              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-              alt="Mulher sorrindo penteando outra mulher"
-            />
-          </div>
-          -->
-          <div class="text">
-            <h2 class="title" style="color: #ffffff; font-size: 3rem;">Salão Empresa Pedagógica SENAC </h2>
-            <p style="color: #ffffff;">
-              Fundamentação teórica colocada em prática
-            </p>
-            <a class="button" href="#">saiba mais</a>
-          </div>
+      <div class="swiper-container" style="width: 100%; height: 100px;">
+        <div class="swiper-wrapper">
+          <!-- Slides serão adicionados dinamicamente -->
         </div>
-      </section>
-
-      <div class="divider-1"></div>
-
-      <!-- ABOUT -->
-      <section class="section" id="about">
-        <div class="container grid">
-        
-          <div class="text" style=" width: 80%;">          
-            <h1>Sobre o</h1>
-            <br />
-             <h1 style="color: #FD8C00">Salão Empresa Pedagógica SENAC </h1>
-            <br />
-            <p>
-              No Recife, o Senac dispõe de uma unidade especializada em serviços na área de beleza, estética e bem-estar para atender ao púbico em geral. O Salão Empresa Pedagógica conta com uma estrutura moderna e profissionais altamente qualificados, para proporcionar os cuidados que você precisa. São oferecidos serviços de manicure, pedicure, cortes masculinos e femininos, mechas e cuidados com todos os tipos de cabelo, design de sobrancelha, depilação, massagem, podologia, entre outros.
-              O Salão Empresa Pedagógica também dispõe de formações profissionais voltadas para quem deseja aprender ou se especializar na área de Beleza. As formações proporcionam ao aluno a oportunidade de conhecer as melhores técnicas e rotinas do mercado.
-            </p>
-          </div>
-
-          <div class="image" style=" width: 40vw;">
-            <img style="border-radius: 20px 50px 30px 200px;"
-              src="assets/fotos/modelos.png"
-              alt="3 mulheres sorrindo"
-            />
-          </div>
-        </div>
-        
-      </section>
-
-      <div class="divider-2"></div>
-
-      <!-- SERVICES -->
-      <section class="section" id="services" style="height: 170vh;">
-        <div class="container grid">
-          <header>
-            <h3 style="color: #FD8C00;">NOSSOS</h3>
-            <h1>SERVIÇOS</h1>
-           
-          </header>
-          <div class="cards grid" >
-            <div class="card" style="display: flex; flex-direction: column; align-items: center;">
-              <i class="icon-woman-hair"></i>
-              <h3 class="title">Transformação de Formas e Texturas dos Cabelos</h3>
-              <a class="button" href="#">saiba mais</a>
-            </div>
-            <div class="card" style="display: flex; flex-direction: column; align-items: center;justify-content: center;">
-              <i class="icon-trim"></i>
-              <h3 class="title">Cortes</h3>
-              <a class="button" href="#">saiba mais</a>
-            </div>
-            <div class="card" style="display: flex; flex-direction: column; align-items: center;justify-content: center;">
-              <i class="icon-cosmetic"></i>
-              <h3 class="title">Tratamentos</h3>
-              <a class="button" href="#">saiba mais</a>
-            </div>
-
-
-
-
-            <div class="card" style="display: flex; flex-direction: column; align-items: center;">
-              <i class="icon-woman-hair"></i>
-              <h3 class="title">Transformação de Cor dos Cabelos</h3>
-              <a class="button" href="#">saiba mais</a>
-            </div>
-            <div class="card" style="display: flex; flex-direction: column; align-items: center;justify-content: center;">
-              <i class="icon-trim"></i>
-              <h3 class="title">Serviços de Penteados</h3>
-              <a class="button" href="#">saiba mais</a>
-            </div>
-            <div class="card" style="display: flex; flex-direction: column; align-items: center;justify-content: center;">
-              <i class="icon-cosmetic"></i>
-              <h3 class="title">Penteado Festa</h3>
-              <a class="button" href="#">saiba mais</a>
-            </div>
-          </div>
-          
-        </div>
-      </section>
-
-
-       <!-- promoção -->
-       <section class="section" id="promocao">
-        <div class="container " style="display: flex; justify-content: center; ">
-          
-        
-            <div class="text" style="  display: flex; ">          
-              <div class=""  style="padding: 4rem; display: flex; align-items: start;
-               gap: 1rem; flex-direction: column; justify-content: center; width: 50vw; height: 70vh;
-                background: url(assets/fotos/agendAgora.png) no-repeat center  center; background-size: cover;  ">
-                <h3 style="color: #ffffff; font-size: 2rem;">CONFIRA NOSSAS</h3>
-                <h1 style="color: #FD8C00;">OFERTAS E EVENTOS</h1>
-                <p style="color: #ffffff;">Amet minim mollit non deserunt ullamco est sit aliqua 
-                  dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                  <a
-                  href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário"
-                  class="button"
-                  target="_blank"
-                  ><i class="icon-whatsapp"></i> Entrar em contato</a
-                >
-                
-              </div>
-              <div class=""  style="padding: 4rem; display: flex; align-items: start;
-              gap: 1rem; flex-direction: column; justify-content: center; width: 50vw; height: 70vh;
-               background: url(assets/fotos/pele.png) no-repeat center  center; background-size: cover; ">
-               <h3 style="color: #ffffff; font-size: 2rem;">CUIDE DA SUA PELE</h3>
-               <h1 style="color: #FD8C00;">COM O SENAC</h1>
-               <p style="color: #ffffff;">Amet minim mollit non deserunt ullamco est sit aliqua 
-                 dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                 <a
-                 href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário"
-                 class="button"
-                 target="_blank"
-                 ><i class="icon-whatsapp"></i> Entrar em contato</a
-               >
-               
-  
-          
-          
-          
-        </div>
-      </section>
-
-      <div class="divider-1"></div>
-
-      <!-- TESTIMONIALS -->
-      <section class="section" id="testimonials">
-        <div class="container swiper">
-          <header>
-            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
-          </header>
-          <div class="testimonials swiper-container">
-            <div class="swiper-wrapper">
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
-                  </p>
-                  <cite>
-                    <img
-                      src="assets/fotos/10.jpeg"
-                      alt="Foto de Wanessa Souza"
-                    />
-                    Wanessa Souza
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
-                  </p>
-                  <cite>
-                    <img
-                      src="assets/fotos/56.jpeg"
-                      alt="Foto de Franciele Venega"
-                    />
-                    Franciele Venega
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
-                  </p>
-                  <cite>
-                    <img
-                      src="assets/fotos/26.jpeg"
-                      alt="Fotos de Valeska Fabris"
-                    />
-                    Valeska Fabris
-                  </cite>
-                </blockquote>
-              </div>
-            </div>
-
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-
-      <div class="divider-2"></div>
-
-      <!-- CONTACT -->
-      <section class="section" id="contact">
-        <div class="container grid">
-          <div class="text">
-            <h2 class="title">Entre em contato com a gente!</h2>
-            <p>
-              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
-              ouvir suas críticas e sugestões.
-            </p>
-            <a
-              href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário"
-              class="button"
-              target="_blank"
-              ><i class="icon-whatsapp"></i> Entrar em contato</a
-            >
-          </div>
-
-          <div class="links">
-            <ul class="grid">
-              <li><i class="icon-phone"></i> 11 99845-6754</li>
-              <li><i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
-              <li><i class="icon-mail"></i> contato@beautysalon.com</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <div class="divider-1"></div>
+        <!-- Adiciona botões de navegação -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    
     </main>
 
     
@@ -422,7 +189,7 @@
     <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
     <!-- swiper -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
 
     <!-- scrollreveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -432,6 +199,44 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+Yl28Zkk+ztTtmI3U0t4Ge2jFZnxk" 
     crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const swiperWrapper = document.querySelector('.swiper-wrapper');
+
+      // Função para obter o número de dias no mês atual
+      const getDaysInMonth = (month, year) => {
+        return new Date(year, month, 0).getDate();
+      };
+
+      const date = new Date();
+      const daysInMonth = getDaysInMonth(date.getMonth() + 1, date.getFullYear());
+
+      // Adiciona os dias ao swiper-wrapper
+      for (let day = 1; day <= daysInMonth; day++) {
+        const slide = document.createElement('div');
+        slide.classList.add('swiper-slide');
+        slide.textContent = day;
+        slide.style.display = 'flex';
+        slide.style.justifyContent = 'center';
+        slide.style.alignItems = 'center';
+        slide.style.fontSize = '20px';
+        slide.style.background = '#f0f0f0';
+        swiperWrapper.appendChild(slide);
+      }
+
+      // Inicializa o Swiper
+      const swiper = new Swiper('.swiper-container', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        slidesPerView: 7,
+        spaceBetween: 10,
+      });
+    });
+  </script>
 
   </body>
 </html>
